@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import QuizPage from './components/quizPage';
+import QuizMainPage from './components/quizMainPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <QuizPage />
+    <QuizMainPage />
   </React.StrictMode>
 );
