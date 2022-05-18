@@ -4,32 +4,33 @@
     "question": "Who was the first American woman in space? ",
     "correct_answer": "Sally Ride",
     "user_answer": "",
-    "incorrect_answers": []
+    "incorrect_answers": ["Lara Croft", "Princess Leia", "Cara Dune"]
     },
     {
     "question": "True or false: 5 kilometer == 5000 meters?",
-    "correct_answer": ["true"],
+    "correct_answer": "true",
     "user_answer": "",
-    "incorrect_answers": []
+    "incorrect_answers": ["false"]
     },
     {
     "question": "(5 + 3)/2 * 10 = ?",
     "correct_answer": 40,
     "user_answer": "",
-    "incorrect_answers": []
+    "incorrect_answers": [13, 24, 59]
     },
     {
-    "question": "Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2?",
+    "question": "Given the array [8, 'Orbit', 'Trajectory', 45] what entry is at index 2?",
     "correct_answer": "Trajectory",
     "user_answer": "",
-    "incorrect_answers": []
+    "incorrect_answers": [8, "Orbit", 45]
     },
     {
     "question": "What is the minimum crew size for the ISS?",
     "correct_answer": 3,
     "user_answer": "",
-    "incorrect_answers": []
+    "incorrect_answers": [1, 15, 7, 5]
     }
   ],
-  "name": "LaunchCode Quiz"
+  "name": "LaunchCode Quiz",
+  "type": "quiz"
   }
