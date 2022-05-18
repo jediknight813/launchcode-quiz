@@ -1,0 +1,126 @@
+{
+	"results":[
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"Which movie released in 2016 features Superman and Batman fighting?",
+				"correct_answer":"Batman v Superman: Dawn of Justice",
+				"incorrect_answers":[
+					"Batman v Superman: Superapocalypse",
+					"Batman v Superman: Black of Knight",
+					"Batman v Superman: Knightfall"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"Who directed &quot;E.T. the Extra-Terrestrial&quot; (1982)?",
+				"correct_answer":"Steven Spielberg",
+				"incorrect_answers":[
+					"Stanley Kubrick",
+					"James Cameron",
+					"Tim Burton"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"Which animated movie was first to feature a celebrity as a voice actor?",
+				"correct_answer":"Aladdin",
+				"incorrect_answers":[
+					"Toy Story",
+					"James and the Giant Peach",
+					"The Hunchback of Notre Dame"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+				"correct_answer":"Quentin Tarantino",
+				"incorrect_answers":[
+					"Martin Scorcese",
+					"Steven Spielberg",
+					"James Cameron"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;",
+				"correct_answer":"Top Gun",
+				"incorrect_answers":[
+					"Days of Thunder",
+					"The Color of Money",
+					"Cocktail"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"What is the oldest Disney film?",
+				"correct_answer":"Snow White and the Seven Dwarfs",
+				"incorrect_answers":[
+					"Pinocchio",
+					"Dumbo",
+					"Fantasia"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"In the 2012 film, &quot;The Lorax&quot;, who is the antagonist?",
+				"correct_answer":"Aloysius O&#039;Hare",
+				"incorrect_answers":[
+					"Ted Wiggins",
+					"The Once-Ler",
+					"Grammy Norma"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"In the 1992 film &quot;Army of Darkness&quot;, what name does Ash give to his double-barreled shotgun?",
+				"correct_answer":"Boomstick",
+				"incorrect_answers":[
+					"Bloomstick",
+					"Blastbranch",
+					"2-Pump Chump"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"In the movie &quot;Blade Runner&quot;, what is the term used for human-like androids ?",
+				"correct_answer":"Replicants",
+				"incorrect_answers":[
+					"Cylons",
+					"Synthetics",
+					"Skinjobs"
+				]
+			},
+			{
+				"category":"Entertainment: Film",
+				"type":"multiple",
+				"difficulty":"easy",
+				"question":"Where does the original Friday The 13th movie take place?",
+				"correct_answer":"Camp Crystal Lake",
+				"incorrect_answers":[
+					"Packanack",
+					"Higgins Haven",
+					"Camp Forest Green"
+				]
+			}
+	],
+    "name": "Moive Quiz",
+    "type": "quiz"
+}

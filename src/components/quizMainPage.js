@@ -11,7 +11,9 @@ const QuizMainPage = () => {
     const [GradeQuizState, setGradeQuizState] = useState(false)
     const [current_quiz, setCurrentQuiz] = useState(undefined)
     const launch_code_quiz = require('../quizzes/LaunchCodeQuiz.json');
-    const quizzes = [launch_code_quiz]
+    const gaming_quiz = require('../quizzes/GamingQuiz.json');
+    const movie_quiz = require('../quizzes/MovieQuiz.json');
+    const quizzes = [launch_code_quiz, gaming_quiz, movie_quiz]
 
 
     function return_to_quizzes_page() { 
@@ -40,7 +42,7 @@ const QuizMainPage = () => {
 
     return (
         <div className="bg-slate-600 overflow-x-hidden max-w-screen h-auto min-h-screen flex flex-col items-center font-mono">
-            <Header />
+            <Header return_to_quizzes_page={return_to_quizzes_page}/>
             {SelectQuizState &&
                 <div className="w-full md:w-[800px] h-auto min-h-[300px] rounded-sm shadow-lg mt-16 bg-slate-700 text-slate-50 flex flex-col gap-6">
                     <h1 className=" text-2xl pt-8 pb-2 self-center">Select Quiz</h1>

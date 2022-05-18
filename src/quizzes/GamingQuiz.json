@@ -1,0 +1,114 @@
+{
+	"results":[
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"In what year was &quot;Metal Gear Solid&quot; released in North America?",
+			"correct_answer":"1998",
+			"incorrect_answers":[
+				"1987",
+				"2001",
+				"2004"
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"What is the title of song on the main menu in Halo?",
+			"correct_answer":"Halo",
+			"incorrect_answers":[
+				"Opening Suite",
+				"Shadows",
+				"Suite Autumn"
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"In most FPS video games such as Counter-Strike, shooting which part of the body does the highest damage?",
+			"correct_answer":"Head",
+			"incorrect_answers":[
+				"Arm",
+				"Leg",
+				"Chest"
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"In Danganronpa: Trigger Happy Havoc, what is the protagonist&#039;s name?",
+			"correct_answer":"Makoto Naegi",
+			"incorrect_answers":[
+				"Hajime Hinata",
+				"Nagito Komaeda",
+				"Komaru Naegi"
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"What does Solid Snake use to hide himself with?",
+			"correct_answer":"Cardboard Box",
+			"incorrect_answers":[
+				"Cloaking Device",
+				"Metal Crate",
+				"Cardboard cut-out"
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"In which year was League of Legends released?",
+			"correct_answer":"2009",
+			"incorrect_answers":[
+				"2010",
+				"2003",
+				"2001"
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"Which of the following weapons in &quot;Counter-Strike: Global Offensive&quot; does not have a right-click function?",
+			"correct_answer":"XM1014",
+			"incorrect_answers":[
+				"SG553",
+				"R8 Revolver",
+				"USP-S"
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"Who is the last boss in Night In The Woods&#039; Demontower minigame?",
+			"correct_answer":"The Blood Thief",
+			"incorrect_answers":[
+				"Mega Hairball ",
+				"King Skellie ",
+				"Krampus "
+			]
+		},
+		{
+			"category":"Entertainment: Video Games",
+			"type":"multiple",
+			"difficulty":"easy",
+			"question":"In the video game franchise &quot;Halo&quot;, what is the UNSC&#039;s main opposing faction called?",
+			"correct_answer":"The Covenant",
+			"incorrect_answers":[
+				"The Reckoning",
+				"The Peoples",
+				"The Slaughterers"
+			]
+		}
+	],
+    "name": "Gaming Quiz",
+    "type": "quiz"
+}

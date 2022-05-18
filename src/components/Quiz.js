@@ -30,9 +30,9 @@ const Quiz = ({quiz, quiz_results}) => {
     return (
         <div className="w-full md:w-[800px] pb-10 h-auto min-h-[450px] bg-slate-700 mt-16 text-white flex flex-col items-center gap-4">
             <h1 className=" text-2xl mt-6 mb-2 font-bold">Question #{questionIndex+1}</h1>
-            <p className="pr-4 pl-4 text-sm font-bold mb-4">{quiz['results'][questionIndex]['question']}</p>
+            <p className="pr-4 pl-4 text-sm font-bold mb-4">{quiz['results'][questionIndex]['question'].replace(/&quot;/g, "'").replace(/&#039;/g, "'").replace(/&eacute;/g, "")}</p>
             {quiz['results'][questionIndex]['incorrect_answers'].map((choice) => (
-                    <button key={choice} onClick={() => next_question(choice)} className="bg-slate-800 w-full min-h-[55px] h-auto  hover:bg-slate-800/80 md:rounded-full md:w-[90%] md:self-center shadow-md">{choice}</button>
+                    <button key={choice} onClick={() => next_question(choice)} className="bg-slate-800 w-full min-h-[55px] h-auto  hover:bg-slate-800/80 md:rounded-full md:w-[90%] md:self-center shadow-md">{choice.replace(/&quot;/g, "'").replace(/&#039;/g, "'").replace(/&eacute;/g, "" )}</button>
                  ))}
         </div>
     )
