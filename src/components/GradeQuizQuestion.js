@@ -5,14 +5,14 @@ const GradeQuizQuestion = ({index, question}) => {
     //console.log(index, question)
 
     function remove_incorrect_json_data(string) {
-        return string.replace(/&quot;/g, "'").replace(/&#039;/g, "'").replace(/&eacute;/g, "")
+        return string.toString().replace(/&quot;/g, "'").replace(/&#039;/g, "'").replace(/&eacute;/g, "")
     }
-    
+
 
     return (
     <div className=" w-full h-auto pt-5 pb-5 rounded-md flex flex-col shadow-sm bg-slate-800/50 items-center">
         <h1 className="font-bold mb-2 text-xl md:text-2xl">{"question #"+Number(index+1)}</h1>
-        <p className="pr-4 pl-4 text-sm mb-4">{remove_incorrect_json_data(question['question'])}</p>
+        <p className="pr-4 pl-4 text-sm mb-4 max-w-prose">{remove_incorrect_json_data(question['question'])}</p>
         {question['user_answer'] === question['correct_answer'] &&
             <h2 className=" text-green-500 md:text-lg mr-2 ml-2">Your Answer: {remove_incorrect_json_data(question.user_answer)}</h2>
         }

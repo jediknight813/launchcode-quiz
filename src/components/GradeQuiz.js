@@ -25,7 +25,7 @@ const GradeQuiz = ({quiz,  return_to_quizzes_page}) => {
             {quiz['results'].map((question, index) => 
                 <GradeQuizQuestion key={index} index={index} question={question}/>
             )}
-            <h2 className="text-bold md:text-2xl text-lg">Overall Score: {(CheckUserAnswers()/quiz['results'].length) * 100 + "%" } </h2>
+            <h2 className="text-bold md:text-2xl text-lg">Overall Score: {((CheckUserAnswers()/quiz['results'].length) * 100).toString().slice(".", 5) + "%" } </h2>
             <h3 className="text-bold md:text-lg">({CheckUserAnswers() + " of " + quiz['results'].length + " questions correct"})</h3>
             <button onClick={() => return_to_quizzes_page()} className=" bg-blue-500 p-2 pr-3 hover:bg-blue-500/90 pl-3 rounded-full"> Return </button>
         </div>
