@@ -4,11 +4,11 @@ a website made for a launchcode assignment.
 made using React and Tailwind.
 
 
-a link to the website: https://inquisitive-speculoos-dd06aa.netlify.app/
+a link to the website: https://charming-babka-175191.netlify.app/
 
 main page desktop
 
-<img width="1679" alt="Screen Shot 2022-05-18 at 1 06 27 PM" src="https://user-images.githubusercontent.com/17935336/169113588-d3121897-ec77-4857-89ba-ac88baff4c30.png">
+<img width="1680" alt="Screen Shot 2022-05-24 at 2 21 13 PM" src="https://user-images.githubusercontent.com/17935336/170115759-ff78b309-0bae-4da2-b164-f24fddd1919a.png">
 
 answering question page desktop
 
@@ -21,7 +21,7 @@ grading page desktop
 
 main page mobile
 
-<img width="409" alt="Screen Shot 2022-05-18 at 1 07 43 PM" src="https://user-images.githubusercontent.com/17935336/169114570-9cadd8f2-ade7-4431-9e93-c78985f1314c.png">
+<img width="405" alt="Screen Shot 2022-05-24 at 2 21 27 PM" src="https://user-images.githubusercontent.com/17935336/170115799-14af2752-18da-4234-9290-69486d71a10a.png">
 
 answering question page mobile
 
