@@ -2,10 +2,12 @@ import React from "react";
 
 
 const GradeQuizQuestion = ({index, question}) => {
-    //console.log(index, question)
+
 
     function remove_incorrect_json_data(string) {
-        return string.toString().replace(/&quot;/g, "'").replace(/&#039;/g, "'").replace(/&eacute;/g, "")
+        if (string !== undefined) {
+            return string.toString().replace(/&quot;/g, "'").replace(/&#039;/g, "'").replace(/&eacute;/g, "")
+        }
     }
 
 

@@ -4,9 +4,7 @@ import GradeQuizQuestion from "./GradeQuizQuestion";
 
 
 const GradeQuiz = ({quiz,  return_to_quizzes_page}) => {
-    //console.log(return_to_quizzes_page)
-
-    //user['grade']/quiz.length) * 100 + "%" 
+ 
 
     function CheckUserAnswers() { 
         let user_answers_correct = 0

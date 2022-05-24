@@ -1,0 +1,24 @@
+{ 
+    "results": [
+    {
+    "question": "pick category",
+    "correct_answer": "History",
+    "user_answer": "",
+    "incorrect_answers": ["Gaming", "Film", "Television", "Books"]
+    },
+    {
+    "question": "number of questions",
+    "correct_answer": 15,
+    "user_answer": "",
+    "incorrect_answers": [5, 10]
+    },
+    {
+    "question": "difficulty",
+    "correct_answer": "hard",
+    "user_answer": "",
+    "incorrect_answers": ["easy", "medium"]
+    }
+  ],
+  "name": "Generate Custom Quiz",
+  "type": "custom"
+  }
