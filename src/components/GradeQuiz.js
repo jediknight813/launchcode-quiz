@@ -4,8 +4,6 @@ import GradeQuizQuestion from "./GradeQuizQuestion";
 
 
 const GradeQuiz = ({quiz,  return_to_quizzes_page}) => {
- 
-
     function CheckUserAnswers() { 
         let user_answers_correct = 0
         quiz['results'].forEach(element => {

@@ -36,6 +36,7 @@ const QuizMainPage = () => {
         if (quiz?.type === "custom") {
             axios.get(`https://opentdb.com/api.php?amount=${quiz.results[1]['user_answer']}&category=${QuizApiCategories[quiz.results[0]['user_answer']]}&difficulty=${quiz.results[2]['user_answer']}&type=multiple`).then(response => {
                 response.data["type"] = "quiz"
+                response.data["name"] = quiz.results[0].user_answer+" Quiz"
                 setAnswerQuizState(false)
                 setSelectQuizState(true)
                 setTimeout(() => { quiz_selected(response.data) }, "50")
